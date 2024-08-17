@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="list-area">
-        
+        <h1>TO-DO LIST</h1>
+        <h3>Add List Item</h3>
+        <p>
+            <input type="text" id="add-todo"><button>ADD</button>
+        </p>
+
+        <h2>Incomplete Items</h2>
+        <ul id="incomplete">
+            <li><input type="checkbox"><label>Do Laundry</label><input type="text"><button
+                    class="amend">Amend</button><button class="remove">Remove</button></li>
+            <li><input type="checkbox"><label>Feed Cat</label><input type="text">><button
+                    class="amend">Amend</button><button class="remove">Remove</button></li>
+        </ul>
+
+        <h2>Completed Items</h2>
+        <ul id="complete">
+            <li><input type="checkbox" checked><label>Pay Phone Bill</label><input type="text"><button
+                    class="amend">Amend</button><button class="remove">Remove</button></li>
+        </ul>
     </div>
 </body>
+
 </html>
